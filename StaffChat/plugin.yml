@@ -1,0 +1,10 @@
+name: StaffChat
+version: 1.0.0
+main: StaffChat\Main
+api: [5.0.0]
+author: Natanael
+description: Un chat réservée aux membres du staff en utilisant '&' au début du message.
+permissions:
+  staffchat.use:
+    default: false
+    description: Permission pour envoyer et recevoir des message du chat satff.
